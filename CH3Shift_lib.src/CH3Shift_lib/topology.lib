@@ -1,0 +1,600 @@
+################################################################################
+# Copyright (C) 2009+ Aleksandr B. Sahakyan (aleksahak[at]cantab.net).         #
+#                                                                              #
+# License: You may redistribute this source code (or its components) and/or    #
+#   modify/translate it under the terms of the GNU General Public License      #
+#   as published by the Free Software Foundation; version 2 of the License     #
+#   (GPL2). You can find the details of GPL2 in the follwing link:             #
+#   https://www.gnu.org/licenses/gpl-2.0.html                                  #
+################################################################################
+# First two (N, HN) and last two (C, O) entries are considered as variant
+# in case of terminal moiety consideration, where the non-altered
+# mainchain atoms need to be identified. So be careful when modifying or
+# adding new records. The first and last two rows in each of the aminoacid
+# record cannot hold a main-chain and transferable data!!!
+# LAST UPDATED ON 19 SEP 2011
+PHE amber99_34  -0.371290 N     -    -    -    -    -    - 
+PHE amber99_17   0.234053 HN    H    H    -    H    H    H 
+PHE amber99_11  -0.030057 CA    -    -    -    -    -    - 
+PHE amber99_19   0.102448 HA    -    -    -    -    -    - 
+PHE amber99_11  -0.098720 CB    -    -    -    -    -    - 
+PHE amber99_18   0.060989 HB1   -    HB2  HB2  1HB  1HB  2HB 
+PHE amber99_18   0.060989 HB2   -    HB3  HB3  2HB  2HB  3HB 
+PHE amber99_3    0.021313 CG    -    -    -    -    -    - 
+PHE amber99_3   -0.083109 CD1   -    -    -    -    -    - 
+PHE amber99_22   0.098466 HD1   -    -    -    1HD  -    - 
+PHE amber99_3   -0.156974 CE1   -    -    -    -    -    - 
+PHE amber99_22   0.123731 HE1   -    -    -    1HE  -    - 
+PHE amber99_3   -0.099824 CZ    -    -    -    -    -    - 
+PHE amber99_22   0.114679 HZ    -    -    -    -    -    - 
+PHE amber99_3   -0.156974 CE2   -    -    -    -    -    - 
+PHE amber99_22   0.123731 HE2   -    -    -    2HE  -    - 
+PHE amber99_3   -0.083109 CD2   -    -    -    -    -    - 
+PHE amber99_22   0.098466 HD2   -    -    -    2HD  -    - 
+PHE amber99_2    0.547987 C     -    -    -    -    -    - 
+PHE amber99_41  -0.506795 O     -    -    -    -    -    - 
+#
+TYR amber99_34  -0.487560 N     -    -    -    -    -    - 
+TYR amber99_17   0.263521 HN    H    H    -    H    H    H 
+TYR amber99_11   0.009614 CA    -    -    -    -    -    - 
+TYR amber99_19   0.095501 HA    -    -    -    -    -    - 
+TYR amber99_11  -0.051853 CB    -    -    -    -    -    - 
+TYR amber99_18   0.019145 HB1   -    HB2  HB2  1HB  1HB  2HB 
+TYR amber99_18   0.019145 HB2   -    HB3  HB3  2HB  2HB  3HB 
+TYR amber99_3    0.112601 CG    -    -    -    -    -    - 
+TYR amber99_3   -0.183461 CD1   -    -    -    -    -    - 
+TYR amber99_22   0.132715 HD1   -    -    -    1HD  -    - 
+TYR amber99_3   -0.181823 CE1   -    -    -    -    -    - 
+TYR amber99_22   0.137303 HE1   -    -    -    1HE  -    - 
+TYR amber99_2    0.206277 CZ    -    -    -    -    -    - 
+TYR amber99_43  -0.421233 OH    -    -    -    -    -    - 
+TYR amber99_25   0.329691 HH    -    -    -    -    -    - 
+TYR amber99_3   -0.181823 CE2   -    -    -    -    -    - 
+TYR amber99_22   0.137303 HE2   -    -    -    2HE  -    - 
+TYR amber99_3   -0.183461 CD2   -    -    -    -    -    - 
+TYR amber99_22   0.132715 HD2   -    -    -    2HD  -    - 
+TYR amber99_2    0.622290 C     -    -    -    -    -    - 
+TYR amber99_41  -0.526607 O     -    -    -    -    -    - 
+#
+TRP amber99_34  -0.427579 N     -    -    -    -    -    -    - 
+TRP amber99_17   0.241716 HN    H    H    -    H    H    H    H 
+TRP amber99_11  -0.020082 CA    -    -    -    -    -    -    - 
+TRP amber99_19   0.106629 HA    -    -    -    -    -    -    - 
+TRP amber99_11  -0.098364 CB    -    -    -    -    -    -    - 
+TRP amber99_18   0.065424 HB1   -    HB2  HB2  1HB  HB2  1HB  2HB 
+TRP amber99_18   0.065424 HB2   -    HB3  HB3  2HB  HB3  2HB  3HB 
+TRP amber99_14  -0.099797 CG    -    -    -    -    -    -    - 
+TRP amber99_13  -0.174053 CD1   -    -    -    -    -    -    - 
+TRP amber99_23   0.170633 HD1   -    -    -    HD   HD   -    - 
+TRP amber99_35  -0.298433 NE1   -    -    -    -    -    -    - 
+TRP amber99_17   0.322375 HE1   -    -    -    1HE  -    -    - 
+TRP amber99_8    0.141523 CE2   -    -    -    -    -    -    - 
+TRP amber99_3   -0.210701 CZ2   -    -    -    -    -    -    - 
+TRP amber99_22   0.125512 HZ2   -    -    -    2HZ  -    -    - 
+TRP amber99_3   -0.133022 CH2   -    -    -    -    -    -    - 
+TRP amber99_22   0.119467 HH2   -    -    -    HH   HH   -    - 
+TRP amber99_3   -0.164054 CZ3   -    -    -    -    -    -    - 
+TRP amber99_22   0.119250 HZ3   -    -    -    3HZ  -    -    - 
+TRP amber99_3   -0.153992 CE3   -    -    -    -    -    -    - 
+TRP amber99_22   0.123084 HE3   -    -    -    3HE  -    -    - 
+TRP amber99_4    0.089641 CD2   -    -    -    -    -    -    - 
+TRP amber99_2    0.584129 C     -    -    -    -    -    -    - 
+TRP amber99_41  -0.494730 O     -    -    -    -    -    -    - 
+#
+HID amber99_34  -0.506799 N     -    -    -    -    -    - 
+HID amber99_17   0.351021 HN    H    H    -    H    H    H 
+HID amber99_11   0.119066 CA    -    -    -    -    -    - 
+HID amber99_19   0.137761 HA    -    -    -    -    -    - 
+HID amber99_11  -0.122638 CB    -    -    -    -    -    - 
+HID amber99_18   0.086329 HB1   -    HB2  HB2  1HB  1HB  2HB 
+HID amber99_18   0.086329 HB2   -    HB3  HB3  2HB  2HB  3HB 
+HID amber99_35  -0.205785 ND1   -    -    -    -    -    - 
+HID amber99_17   0.318273 HD1   -    -    -    1HD  -    - 
+HID amber99_5   -0.001547 CG    -    -    -    -    -    - 
+HID amber99_10   0.147273 CE1   -    -    -    -    -    - 
+HID amber99_24   0.122182 HE1   -    -    -    1HE  -    - 
+HID amber99_36  -0.601482 NE2   -    -    -    -    -    - 
+HID amber99_12   0.043744 CD2   -    -    -    -    -    - 
+HID amber99_23   0.110157 HD2   -    -    -    2HD  -    - 
+HID amber99_2    0.515947 C     -    -    -    -    -    - 
+HID amber99_41  -0.599831 O     -    -    -    -    -    - 
+#
+HIE amber99_34  -0.528120 N     -    -    -    -    -    - 
+HIE amber99_17   0.281695 HN    H    H    -    H    H    H 
+HIE amber99_11   0.031249 CA    -    -    -    -    -    - 
+HIE amber99_19   0.085175 HA    -    -    -    -    -    - 
+HIE amber99_11  -0.152267 CB    -    -    -    -    -    - 
+HIE amber99_18   0.054608 HB1   -    HB2  HB2  1HB  1HB  2HB 
+HIE amber99_18   0.054608 HB2   -    HB3  HB3  2HB  2HB  3HB 
+HIE amber99_36  -0.423316 ND1   -    -    -    -    -    - 
+HIE amber99_5    0.278406 CG    -    -    -    -    -    - 
+HIE amber99_10   0.025960 CE1   -    -    -    -    -    - 
+HIE amber99_24   0.126832 HE1   -    -    -    1HE  -    - 
+HIE amber99_35  -0.097984 NE2   -    -    -    -    -    - 
+HIE amber99_17   0.266865 HE2   -    -    -    2HE  -    - 
+HIE amber99_13  -0.297563 CD2   -    -    -    -    -    - 
+HIE amber99_23   0.160413 HD2   -    -    -    2HD  -    - 
+HIE amber99_2    0.662405 C     -    -    -    -    -    - 
+HIE amber99_41  -0.528966 O     -    -    -    -    -    - 
+#
+HIP amber99_34  -0.150599 N     -    -    -    -    -    - 
+HIP amber99_17   0.174903 HN    H    H    -    H    H    H 
+HIP amber99_11  -0.139355 CA    -    -    -    -    -    - 
+HIP amber99_19   0.103647 HA    -    -    -    -    -    - 
+HIP amber99_11  -0.105724 CB    -    -    -    -    -    - 
+HIP amber99_18   0.102146 HB1   -    HB2  HB2  1HB  1HB  2HB 
+HIP amber99_18   0.102146 HB2   -    HB3  HB3  2HB  2HB  3HB 
+HIP amber99_35   0.002100 ND1   -    -    -    -    -    - 
+HIP amber99_17   0.258443 HD1   -    -    -    1HD  -    - 
+HIP amber99_5    0.051128 CG    -    -    -    -    -    - 
+HIP amber99_10  -0.033333 CE1   -    -    -    -    -    - 
+HIP amber99_24   0.218884 HE1   -    -    -    1HE  -    - 
+HIP amber99_35  -0.140978 NE2   -    -    -    -    -    - 
+HIP amber99_17   0.353373 HE2   -    -    -    2HE  -    - 
+HIP amber99_13  -0.143848 CD2   -    -    -    -    -    - 
+HIP amber99_23   0.213519 HD2   -    -    -    2HD  -    - 
+HIP amber99_2    0.675645 C     -    -    -    -    -    - 
+HIP amber99_41  -0.542097 O     -    -    -    -    -    - 
+#
+PRO BLABLABLA    0.000000 BLA   BLA  BLA  BLA 
+PRO amber99_34  -0.088116 N     -    -    - 
+PRO amber99_11  -0.011906 CD    -    -    - 
+PRO amber99_19   0.043951 HD1   HD2  1HD  2HD 
+PRO amber99_19   0.043950 HD2   HD3  2HD  3HD 
+PRO amber99_11   0.013059 CG    -    -    - 
+PRO amber99_18   0.019574 HG1   HG2  1HG  2HG 
+PRO amber99_18   0.019574 HG2   HG3  2HG  3HG 
+PRO amber99_11  -0.003351 CB    -    -    - 
+PRO amber99_18   0.019352 HB1   HB2  1HB  2HB 
+PRO amber99_18   0.019352 HB2   HB3  2HB  3HB 
+PRO amber99_11  -0.034577 CA    -    -    - 
+PRO amber99_19   0.059977 HA    -    -    - 
+PRO amber99_2    0.333720 C     -    -    - 
+PRO amber99_41  -0.434559 O     -    -    - 
+#
+GLY amber99_34  -0.374282 N     -    -    -    -    - 
+GLY amber99_17   0.253981 HN    H    H    -    H    H 
+GLY amber99_11  -0.128844 CA    -    -    -    -    - 
+GLY amber99_0    0.088859 HA1   -    HA2  HA2  1HA  2HA 
+GLY amber99_0    0.088859 HA2   -    HA3  HA3  2HA  3HA 
+GLY amber99_2    0.580584 C     -    -    -    -    - 
+GLY amber99_41  -0.509157 O     -    -    -    -    - 
+#
+ALA amber99_34  -0.404773 N     -    - 
+ALA amber99_17   0.294276 HN    H    H 
+ALA amber99_11  -0.027733 CA    -    - 
+ALA amber99_19   0.120802 HA    -    - 
+ALA amber99_11  -0.229951 CB    -    - 
+ALA amber99_18   0.077428 HB1   -    1HB 
+ALA amber99_18   0.077428 HB2   -    2HB 
+ALA amber99_18   0.077428 HB3   -    3HB 
+ALA amber99_2    0.570224 C     -    - 
+ALA amber99_41  -0.555129 O     -    - 
+#
+ARG amber99_34  -0.300879 N     -    -    -    -    -    - 
+ARG amber99_17   0.233693 HN    H    H    -    -    H    H 
+ARG amber99_11  -0.131381 CA    -    -    -    -    -    - 
+ARG amber99_19   0.053266 HA    -    -    -    -    -    - 
+ARG amber99_11   0.036707 CB    -    -    -    -    -    - 
+ARG amber99_18   0.028012 HB1   -    HB2  -    HB2  1HB  2HB 
+ARG amber99_18   0.028012 HB2   -    HB3  -    HB3  2HB  3HB 
+ARG amber99_11   0.012454 CG    -    -    -    -    -    - 
+ARG amber99_18   0.002964 HG1   -    HG2  -    HG2  1HG  2HG 
+ARG amber99_18   0.002964 HG2   -    HG3  -    HG3  2HG  3HG 
+ARG amber99_11   0.126329 CD    -    -    -    -    -    - 
+ARG amber99_19   0.068148 HD1   -    HD2  -    HD2  1HD  2HD 
+ARG amber99_19   0.068148 HD2   -    HD3  -    HD3  2HD  3HD 
+ARG amber99_38  -0.464890 NE    -    -    -    -    -    - 
+ARG amber99_17   0.326274 HE    -    -    -    -    -    - 
+ARG amber99_3    0.565543 CZ    -    -    -    -    -    - 
+ARG amber99_38  -0.685774 NH1   -    -    -    -    -    - 
+ARG amber99_17   0.391052 HH11  -    -    1HH1 1HH1 1HH1 1HH1 
+ARG amber99_17   0.391052 HH12  -    -    2HH1 2HH1 2HH1 2HH1 
+ARG amber99_38  -0.685774 NH2   -    -    -    -    -    - 
+ARG amber99_17   0.391052 HH21  -    -    1HH2 1HH2 1HH2 1HH2 
+ARG amber99_17   0.391052 HH22  -    -    2HH2 2HH2 2HH2 2HH2 
+ARG amber99_2    0.730308 C     -    -    -    -    -    - 
+ARG amber99_41  -0.578332 O     -    -    -    -    -    - 
+#
+LYS amber99_34  -0.435875 N     -    -    -    -    - 
+LYS amber99_17   0.251302 HN    H    H    -    H    H 
+LYS amber99_11  -0.038773 CA    -    -    -    -    - 
+LYS amber99_19   0.129478 HA    -    -    -    -    - 
+LYS amber99_11  -0.108273 CB    -    -    -    -    - 
+LYS amber99_18   0.045214 HB1   -    HB2  HB2  1HB  2HB 
+LYS amber99_18   0.045214 HB2   -    HB3  HB3  2HB  3HB 
+LYS amber99_11   0.033341 CG    -    -    -    -    - 
+LYS amber99_18   0.010208 HG1   -    HG2  HG2  1HG  2HG 
+LYS amber99_18   0.010208 HG2   -    HG3  HG3  2HG  3HG 
+LYS amber99_11  -0.047841 CD    -    -    -    -    - 
+LYS amber99_18   0.070715 HD1   -    HD2  HD2  1HD  2HD 
+LYS amber99_18   0.070715 HD2   -    HD3  HD3  2HD  3HD 
+LYS amber99_11  -0.069974 CE    -    -    -    -    - 
+LYS amber99_28   0.119522 HE1   -    HE2  HE2  1HE  2HE 
+LYS amber99_28   0.119522 HE2   -    HE3  HE3  2HE  3HE 
+LYS amber99_39  -0.250358 NZ    -    -    -    -    - 
+LYS amber99_17   0.294561 HZ1   -    -    -    1HZ  - 
+LYS amber99_17   0.294561 HZ2   -    -    -    2HZ  - 
+LYS amber99_17   0.294561 HZ3   -    -    -    3HZ  - 
+LYS amber99_2    0.725129 C     -    -    -    -    - 
+LYS amber99_41  -0.563157 O     -    -    -    -    - 
+#
+ASP amber99_34  -0.558201 N     -    -    -    -    - 
+ASP amber99_17   0.319676 HN    H    H    -    H    H 
+ASP amber99_11   0.007225 CA    -    -    -    -    - 
+ASP amber99_19   0.082375 HA    -    -    -    -    - 
+ASP amber99_11  -0.047555 CB    -    -    -    -    - 
+ASP amber99_18  -0.014836 HB1   -    HB2  HB2  1HB  2HB 
+ASP amber99_18  -0.014836 HB2   -    HB3  HB3  2HB  3HB 
+ASP amber99_2    0.745168 CG    -    -    -    -    - 
+ASP amber99_45  -0.730385 OD1   -    -    -    -    - 
+ASP amber99_45  -0.730385 OD2   -    -    -    -    - 
+ASP amber99_2    0.443199 C     -    -    -    -    - 
+ASP amber99_41  -0.501445 O     -    -    -    -    - 
+#
+ASN amber99_34  -0.430106 N     -    -    -    -    -    - 
+ASN amber99_17   0.254543 HN    H    H    -    -    H    H 
+ASN amber99_11   0.044609 CA    -    -    -    -    -    - 
+ASN amber99_19   0.059601 HA    -    -    -    -    -    - 
+ASN amber99_11  -0.093650 CB    -    -    -    -    -    - 
+ASN amber99_18   0.043321 HB1   -    HB2  -    HB2  1HB  2HB 
+ASN amber99_18   0.043321 HB2   -    HB3  -    HB3  2HB  3HB 
+ASN amber99_2    0.583519 CG    -    -    -    -    -    - 
+ASN amber99_41  -0.526813 OD1   -    -    -    -    -    - 
+ASN amber99_34  -0.781735 ND2   -    -    -    -    -    - 
+ASN amber99_17   0.355079 HD21  -    -    1HD2 1HD2 1HD2 1HD2 
+ASN amber99_17   0.355079 HD22  -    -    2HD2 2HD2 2HD2 2HD2 
+ASN amber99_2    0.617141 C     -    -    -    -    -    - 
+ASN amber99_41  -0.523909 O     -    -    -    -    -    - 
+#
+GLU amber99_34  -0.423392 N     -    -    -    -    - 
+GLU amber99_17   0.306811 HN    H    H    -    H    H 
+GLU amber99_11   0.031633 CA    -    -    -    -    - 
+GLU amber99_19   0.065100 HA    -    -    -    -    - 
+GLU amber99_11   0.074772 CB    -    -    -    -    - 
+GLU amber99_18  -0.003535 HB1   -    HB2  HB2  1HB  2HB 
+GLU amber99_18  -0.003535 HB2   -    HB3  HB3  2HB  3HB 
+GLU amber99_11  -0.033909 CG    -    -    -    -    - 
+GLU amber99_18  -0.004135 HG1   -    HG2  HG2  1HG  2HG 
+GLU amber99_18  -0.004135 HG2   -    HG3  HG3  2HG  3HG 
+GLU amber99_2    0.765188 CD    -    -    -    -    - 
+GLU amber99_45  -0.824035 OE1   -    -    -    -    - 
+GLU amber99_45  -0.824035 OE2   -    -    -    -    - 
+GLU amber99_2    0.469735 C     -    -    -    -    - 
+GLU amber99_41  -0.592528 O     -    -    -    -    - 
+#
+GLN amber99_34  -0.387353 N     -    -    -    -    -    - 
+GLN amber99_17   0.300605 HN    H    H    -    -    H    H 
+GLN amber99_11   0.037470 CA    -    -    -    -    -    - 
+GLN amber99_19   0.152255 HA    -    -    -    -    -    - 
+GLN amber99_11  -0.032112 CB    -    -    -    -    -    - 
+GLN amber99_18   0.030995 HB1   -    HB2  -    HB2  1HB  2HB 
+GLN amber99_18   0.030995 HB2   -    HB3  -    HB3  2HB  3HB 
+GLN amber99_11  -0.020264 CG    -    -    -    -    -    - 
+GLN amber99_18   0.030791 HG1   -    HG2  -    HG2  1HG  2HG 
+GLN amber99_18   0.030791 HG2   -    HG3  -    HG3  2HG  3HG 
+GLN amber99_2    0.667812 CD    -    -    -    -    -    - 
+GLN amber99_41  -0.628483 OE1   -    -    -    -    -    - 
+GLN amber99_34  -0.883393 NE2   -    -    -    -    -    - 
+GLN amber99_17   0.408312 HE21  -    -    1HE2 1HE2 1HE2 1HE2 
+GLN amber99_17   0.408312 HE22  -    -    2HE2 2HE2 2HE2 2HE2 
+GLN amber99_2    0.418577 C     -    -    -    -    -    - 
+GLN amber99_41  -0.565310 O     -    -    -    -    -    - 
+#
+SER amber99_34  -0.541430 N     -    -    -    -    -    - 
+SER amber99_17   0.345415 HN    H    H    H    -    H    H 
+SER amber99_11   0.118140 CA    -    -    -    -    -    - 
+SER amber99_19   0.142177 HA    -    -    -    -    -    - 
+SER amber99_11   0.146998 CB    -    -    -    -    -    - 
+SER amber99_19   0.040081 HB1   -    -    HB2  HB2  1HB  2HB 
+SER amber99_19   0.040081 HB2   -    -    HB3  HB3  2HB  3HB 
+SER amber99_43  -0.640312 OG    -    -    -    -    -    - 
+SER amber99_25   0.446255 HG1   -    HG   HG   HG   HG   HG 
+SER amber99_2    0.483424 C     -    -    -    -    -    - 
+SER amber99_41  -0.580829 O     -    -    -    -    -    - 
+#
+THR amber99_34  -0.245382 N     -    -    -    -    - 
+THR amber99_17   0.255339 HN    H    H    -    H    H 
+THR amber99_11  -0.271249 CA    -    -    -    -    - 
+THR amber99_19   0.163757 HA    -    -    -    -    - 
+THR amber99_11   0.237868 CB    -    -    -    -    - 
+THR amber99_19   0.044688 HB    -    -    -    -    - 
+THR amber99_11  -0.176489 CG2   -    -    -    -    - 
+THR amber99_18   0.060019 HG21  -    1HG2 1HG2 1HG2 1HG2 
+THR amber99_18   0.060019 HG22  -    2HG2 2HG2 2HG2 2HG2 
+THR amber99_18   0.060019 HG23  -    3HG2 3HG2 3HG2 3HG2 
+THR amber99_43  -0.601931 OG1   -    -    -    -    - 
+THR amber99_25   0.405484 HG1   -    -    -    1HG  - 
+THR amber99_2    0.559878 C     -    -    -    -    - 
+THR amber99_41  -0.552020 O     -    -    -    -    - 
+#
+LEU amber99_34  -0.355153 N     -    -    -    -    - 
+LEU amber99_17   0.262417 HN    H    H    -    -    H 
+LEU amber99_11  -0.101497 CA    -    -    -    -    - 
+LEU amber99_19   0.136951 HA    -    -    -    -    - 
+LEU amber99_11  -0.144399 CB    -    -    -    -    - 
+LEU amber99_18   0.052533 HB1   -    HB2  -    HB2  2HB 
+LEU amber99_18   0.052533 HB2   -    HB3  -    HB3  3HB 
+LEU amber99_11   0.191982 CG    -    -    -    -    - 
+LEU amber99_18   0.000825 HG    -    -    -    -    - 
+LEU amber99_11  -0.123036 CD1   -    -    -    -    - 
+LEU amber99_18   0.022376 HD11  -    -    1HD1 1HD1 1HD1 
+LEU amber99_18   0.022376 HD12  -    -    2HD1 2HD1 2HD1 
+LEU amber99_18   0.022376 HD13  -    -    3HD1 3HD1 3HD1 
+LEU amber99_11  -0.123036 CD2   -    -    -    -    - 
+LEU amber99_18   0.022376 HD21  -    -    1HD2 1HD2 1HD2 
+LEU amber99_18   0.022376 HD22  -    -    2HD2 2HD2 2HD2 
+LEU amber99_18   0.022376 HD23  -    -    3HD2 3HD2 3HD2 
+LEU amber99_2    0.573471 C     -    -    -    -    - 
+LEU amber99_41  -0.557847 O     -    -    -    -    - 
+#
+#  A bug is corrected by interchanging HG13 and HG12 as infered from 
+#  structural examination. Although for LEU HB2 and HB3 it was not required
+#  which is strange.
+ILE amber99_34  -0.451047 N     -    -    -    -    -    - 
+ILE amber99_17   0.328831 HN    H    H    H    -    H    H 
+ILE amber99_11  -0.101874 CA    -    -    -    -    -    - 
+ILE amber99_19   0.174193 HA    -    -    -    -    -    - 
+ILE amber99_11   0.062238 CB    -    -    -    -    -    - 
+ILE amber99_18   0.061662 HB    -    -    -    -    -    - 
+ILE amber99_11  -0.129989 CG2   -    -    -    -    -    - 
+ILE amber99_18   0.030227 HG21  -    -    1HG2 1HG2 1HG2 1HG2 
+ILE amber99_18   0.030227 HG22  -    -    2HG2 2HG2 2HG2 2HG2 
+ILE amber99_18   0.030227 HG23  -    -    3HG2 3HG2 3HG2 3HG2 
+ILE amber99_11   0.022230 CG1   -    -    -    -    -    - 
+ILE amber99_18   0.011551 HG11  -    HG13 1HG1 1HG1 1HG1 3HG1 
+ILE amber99_18   0.011551 HG12  -    HG12 2HG1 2HG1 2HG1 2HG1 
+ILE amber99_11  -0.101251 CD    -    CD1  -    -    CD1  CD1 
+ILE amber99_18   0.023792 HD1   -    HD11 -    -    1HD1 1HD1 
+ILE amber99_18   0.023792 HD2   -    HD12 -    -    2HD1 2HD1 
+ILE amber99_18   0.023792 HD3   -    HD13 -    -    3HD1 3HD1 
+ILE amber99_2    0.569383 C     -    -    -    -    -    - 
+ILE amber99_41  -0.619535 O     -    -    -    -    -    - 
+#
+VAL amber99_34  -0.450087 N     -    -    - 
+VAL amber99_17   0.440048 HN    H    -    H 
+VAL amber99_11  -0.051858 CA    -    -    - 
+VAL amber99_19  -0.026204 HA    -    -    - 
+VAL amber99_11   0.395217 CB    -    -    - 
+VAL amber99_18  -0.115672 HB    -    -    - 
+VAL amber99_11  -0.090132 CG1   -    -    - 
+VAL amber99_18  -0.008985 HG11  -    1HG1 1HG1 
+VAL amber99_18  -0.008985 HG12  -    2HG1 2HG1 
+VAL amber99_18  -0.008985 HG13  -    3HG1 3HG1 
+VAL amber99_11  -0.090132 CG2   -    -    - 
+VAL amber99_18  -0.008985 HG21  -    1HG2 1HG2 
+VAL amber99_18  -0.008985 HG22  -    2HG2 2HG2 
+VAL amber99_18  -0.008985 HG23  -    3HG2 3HG2 
+VAL amber99_2    0.447359 C     -    -    - 
+VAL amber99_41  -0.404629 O     -    -    - 
+#
+CYN amber99_34  -0.396165 N     -    -    -    -    -    - 
+CYN amber99_17   0.295187 HN    H    H    H    -    H    H 
+CYN amber99_11  -0.073501 CA    -    -    -    -    -    - 
+CYN amber99_19   0.140510 HA    -    -    -    -    -    - 
+CYN amber99_11  -0.221371 CB    -    -    -    -    -    - 
+CYN amber99_19   0.146537 HB1   -    -    HB2  HB2  1HB  2HB 
+CYN amber99_19   0.146537 HB2   -    -    HB3  HB3  2HB  3HB 
+CYN amber99_48  -0.285182 SG    -    -    -    -    -    - 
+CYN amber99_26   0.189274 HG1   -    HG   HG   HG   HG   HG 
+CYN amber99_2    0.643035 C     -    -    -    -    -    - 
+CYN amber99_41  -0.584861 O     -    -    -    -    -    - 
+#
+CYS2 amber99_34  -0.435921 N    -    -    -    -    - 
+CYS2 amber99_17   0.290077 HN   H    H    -    H    H 
+CYS2 amber99_11  -0.030547 CA   -    -    -    -    - 
+CYS2 amber99_19   0.132146 HA   -    -    -    -    - 
+CYS2 amber99_11  -0.033006 CB   -    -    -    -    - 
+CYS2 amber99_19   0.078951 HB1  -    HB2  HB2  1HB  2HB  
+CYS2 amber99_19   0.078951 HB2  -    HB3  HB3  2HB  3HB 
+CYS2 amber99_47  -0.132272 SG   -    -    -    -    - 
+CYS2 amber99_2    0.624788 C    -    -    -    -    - 
+CYS2 amber99_41  -0.573167 O    -    -    -    -    - 
+#
+MET amber99_34  -0.394918 N     -    -    -    -    - 
+MET amber99_17   0.280537 HN    H    H    -    H    H 
+MET amber99_11  -0.087681 CA    -    -    -    -    - 
+MET amber99_19   0.123080 HA    -    -    -    -    - 
+MET amber99_11   0.019227 CB    -    -    -    -    - 
+MET amber99_18   0.048840 HB1   -    HB2  HB2  1HB  2HB  
+MET amber99_18   0.048840 HB2   -    HB3  HB3  2HB  3HB 
+MET amber99_11  -0.208167 CG    -    -    -    -    - 
+MET amber99_19   0.124228 HG1   -    HG2  HG2  1HG  2HG 
+MET amber99_19   0.124228 HG2   -    HG3  HG3  2HG  3HG 
+MET amber99_47  -0.211958 SD    -    -    -    -    - 
+MET amber99_11  -0.284698 CE    -    -    -    -    - 
+MET amber99_19   0.128394 HE1   -    -    -    1HE  1HE 
+MET amber99_19   0.128394 HE2   -    -    -    2HE  2HE 
+MET amber99_19   0.128394 HE3   -    -    -    3HE  3HE 
+MET amber99_2    0.599684 C     -    -    -    -    - 
+MET amber99_41  -0.566424 O     -    -    -    -    - 
+#
+# from NALA
+NTR BLABLABLA    0.000000 BLA   - 
+NTR BLABLABLA    0.000000 BLA   - 
+NTR amber99_39   0.141400 N     - 
+NTR amber99_17   0.199700 HT1   H1 
+NTR amber99_17   0.199700 HT2   H2 
+NTR amber99_17   0.199700 HT3   H3 
+NTR BLABLABLA    0.000000 BLA   - 
+NTR BLABLABLA    0.000000 BLA   - 
+#
+# from CALA
+CTR BLABLABLA    0.000000 BLA   -    BLA 
+CTR BLABLABLA    0.000000 BLA   -    BLA 
+CTR amber99_2    0.773100 C     -    - 
+CTR amber99_45  -0.805500 OT1   OC1  O 
+CTR amber99_45  -0.805500 OT2   OC2  OXT 
+CTR BLABLABLA    0.000000 BLA   -    BLA 
+CTR BLABLABLA    0.000000 BLA   -    BLA 
+#
+# RNA
+#
+RA BLABLABLA     0.00000  BLA   BLA 
+RA BLABLABLA     0.00000  BLA   BLA 
+RA amber99_44   -0.49890  O5'   O5* 
+RA amber99_46    1.16620  P     - 
+RA amber99_45   -0.77600  O1P   - 
+RA amber99_45   -0.77600  O2P   - 
+RA amber99_11    0.05580  C5'   C5* 
+RA amber99_19    0.06790  H5'1  1H5* 
+RA amber99_19    0.06790  H5'2  2H5* 
+RA amber99_11    0.10650  C4'   C4* 
+RA amber99_19    0.11740  H4'   H4* 
+RA amber99_44   -0.35480  O4'   O4* 
+RA amber99_11    0.20220  C3'   C3* 
+RA amber99_19    0.06150  H3'   H3* 
+RA amber99_11    0.06700  C2'   C2* 
+RA amber99_19    0.09720  H2'1  1H2* 
+RA amber99_43   -0.61390  O2'   O2* 
+RA amber99_25    0.41860  HO'2  2HO* 
+RA amber99_11    0.03940  C1'   C1* 
+RA amber99_20    0.20070  H1'   H1* 
+RA amber99_40   -0.02510  N9    - 
+RA amber99_6     0.20060  C8    - 
+RA amber99_24    0.15530  H8    - 
+RA amber99_36   -0.60730  N7    - 
+RA amber99_4     0.05150  C5    - 
+RA amber99_3     0.70090  C6    - 
+RA amber99_38   -0.90190  N6    - 
+RA amber99_17    0.41150  H61   1H6 
+RA amber99_17    0.41150  H62   2H6 
+RA amber99_37   -0.76150  N1    - 
+RA amber99_9     0.58750  C2    - 
+RA amber99_24    0.04730  H2    - 
+RA amber99_37   -0.69970  N3    - 
+RA amber99_4     0.30530  C4    - 
+RA amber99_44   -0.52460  O3'   O3* 
+RA BLABLABLA     0.00000  BLA   BLA 
+RA BLABLABLA     0.00000  BLA   BLA  
+#
+RU BLABLABLA     0.00000  BLA   BLA 
+RU BLABLABLA     0.00000  BLA   BLA 
+RU amber99_44   -0.49890  O5'   O5* 
+RU amber99_46    1.16620  P     - 
+RU amber99_45   -0.77600  O1P   - 
+RU amber99_45   -0.77600  O2P   - 
+RU amber99_11    0.05580  C5'   C5* 
+RU amber99_19    0.06790  H5'1  1H5* 
+RU amber99_19    0.06790  H5'2  2H5* 
+RU amber99_11    0.10650  C4'   C4* 
+RU amber99_19    0.11740  H4'   H4* 
+RU amber99_44   -0.35480  O4'   O4* 
+RU amber99_11    0.20220  C3'   C3* 
+RU amber99_19    0.06150  H3'   H3* 
+RU amber99_11    0.06700  C2'   C2* 
+RU amber99_19    0.09720  H2'1  1H2* 
+RU amber99_43   -0.61390  O2'   O2* 
+RU amber99_25    0.41860  HO'2  2HO* 
+RU amber99_11    0.06740  C1'   C1* 
+RU amber99_20    0.18240  H1'   H1* 
+RU amber99_40    0.04180  N1    - 
+RU amber99_7    -0.11260  C6    - 
+RU amber99_23    0.21880  H6    - 
+RU amber99_7    -0.36350  C5    - 
+RU amber99_22    0.18110  H5    - 
+RU amber99_2     0.59520  C4    - 
+RU amber99_41   -0.57610  O4    - 
+RU amber99_35   -0.35490  N3    - 
+RU amber99_17    0.31540  H3    - 
+RU amber99_2     0.46870  C2    - 
+RU amber99_41   -0.54770  O     O2 
+RU amber99_44   -0.52460  O3'   O3* 
+RU BLABLABLA     0.00000  BLA   BLA 
+RU BLABLABLA     0.00000  BLA   BLA 
+#
+RG BLABLABLA     0.00000  BLA   BLA 
+RG BLABLABLA     0.00000  BLA   BLA 
+RG amber99_44   -0.49890  O5'   O5* 
+RG amber99_46    1.16620  P     - 
+RG amber99_45   -0.77600  O1P   - 
+RG amber99_45   -0.77600  O2P   - 
+RG amber99_11    0.05580  C5'   C5* 
+RG amber99_19    0.06790  H5'1  1H5* 
+RG amber99_19    0.06790  H5'2  2H5* 
+RG amber99_11    0.10650  C4'   C4* 
+RG amber99_19    0.11740  H4'   H4* 
+RG amber99_44   -0.35480  O4'   O4* 
+RG amber99_11    0.20220  C3'   C3* 
+RG amber99_19    0.06150  H3'   H3* 
+RG amber99_11    0.06700  C2'   C2* 
+RG amber99_19    0.09720  H2'1  1H2* 
+RG amber99_43   -0.61390  O2'   O2* 
+RG amber99_25    0.41860  HO'2  2HO* 
+RG amber99_11    0.01910  C1'   C1* 
+RG amber99_20    0.20060  H1'   H1* 
+RG amber99_40    0.04920  N9    - 
+RG amber99_6     0.13740  C8    - 
+RG amber99_24    0.16400  H8    - 
+RG amber99_36   -0.57090  N7    - 
+RG amber99_4     0.17440  C5    - 
+RG amber99_2     0.47700  C6    - 
+RG amber99_41   -0.55970  O6    - 
+RG amber99_35   -0.47870  N1    - 
+RG amber99_17    0.34240  H1    - 
+RG amber99_3     0.76570  C2    - 
+RG amber99_38   -0.96720  N2    - 
+RG amber99_17    0.43640  H21   1H2 
+RG amber99_17    0.43640  H22   2H2 
+RG amber99_37   -0.63230  N3    - 
+RG amber99_4     0.12220  C4    - 
+RG amber99_44   -0.52460  O3'   O3* 
+RG BLABLABLA     0.00000  BLA   BLA 
+RG BLABLABLA     0.00000  BLA   BLA 
+#
+RC BLABLABLA     0.00000  BLA   BLA 
+RC BLABLABLA     0.00000  BLA   BLA  
+RC amber99_44   -0.49890  O5'   O5* 
+RC amber99_46    1.16620  P     - 
+RC amber99_45   -0.77600  O1P   - 
+RC amber99_45   -0.77600  O2P   - 
+RC amber99_11    0.05580  C5'   C5* 
+RC amber99_19    0.06790  H5'1  1H5* 
+RC amber99_19    0.06790  H5'2  2H5* 
+RC amber99_11    0.10650  C4'   C4* 
+RC amber99_19    0.11740  H4'   H4* 
+RC amber99_44   -0.35480  O4'   O4* 
+RC amber99_11    0.20220  C3'   C3* 
+RC amber99_19    0.06150  H3'   H3* 
+RC amber99_11    0.06700  C2'   C2* 
+RC amber99_19    0.09720  H2'1  1H2* 
+RC amber99_43   -0.61390  O2'   O2* 
+RC amber99_25    0.41860  HO'2  2HO* 
+RC amber99_11    0.00660  C1'   C1* 
+RC amber99_20    0.20290  H1'   H1* 
+RC amber99_40   -0.04840  N1    - 
+RC amber99_7     0.00530  C6    - 
+RC amber99_23    0.19580  H6    - 
+RC amber99_7    -0.52150  C5    - 
+RC amber99_22    0.19280  H5    - 
+RC amber99_3     0.81850  C4    - 
+RC amber99_38   -0.95300  N4    - 
+RC amber99_17    0.42340  H41   1H4 
+RC amber99_17    0.42340  H42   2H4 
+RC amber99_37   -0.75840  N3    - 
+RC amber99_2     0.75380  C2    - 
+RC amber99_41   -0.62520  O     O2 
+RC amber99_44   -0.52460  O3'   O3* 
+RC BLABLABLA     0.00000  BLA   BLA 
+RC BLABLABLA     0.00000  BLA   BLA 
+#
+R5T BLABLABLA    0.00000  BLA   BLA 
+R5T BLABLABLA    0.00000  BLA   BLA  
+R5T amber99_44  -0.62230  O5'   O5*
+R5T amber99_25   0.42950  H5T   5HO* 
+R5T BLABLABLA    0.00000  BLA   BLA
+R5T BLABLABLA    0.00000  BLA   BLA 
+#
+R5T BLABLABLA    0.00000  BLA   BLA 
+R3T BLABLABLA    0.00000  BLA   BLA  
+R3T amber99_44  -0.65410  O3'   O3* 
+R3T amber99_25   0.43760  H3T   3HO* 
+R3T BLABLABLA    0.00000  BLA   BLA  
+R5T BLABLABLA    0.00000  BLA   BLA 
+#
+
+
+
+
+
+

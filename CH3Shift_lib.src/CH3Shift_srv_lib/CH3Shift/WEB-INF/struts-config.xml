@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN"
+          "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<!--
+     This is the Struts configuration file for the "sreg" application
+-->
+
+<struts-config>
+
+    <!-- ======== Form Bean Definitions =================================== -->
+    
+    <form-beans>
+        <form-bean name="enterDataForm" type="sreg.EnterDataForm"/>
+        <form-bean name="startForm" type="sreg.StartForm"/>
+        <form-bean name="oneForm" type="sreg.OneForm"/>
+        <form-bean name="cancelForm" type="sreg.CancelForm"/>
+        <form-bean name="imageMapForm" type="sreg.ImageMapForm"/>
+    </form-beans>
+
+   <!-- ========  Global Forwards ========================================= -->
+   
+	<global-forwards>
+		<forward name="Results" path="/Results.jsp"/>
+		<forward name="Error" path="/Error.jsp"/>
+		<forward name="TimedOut" path="/TimedOut.jsp"/>
+	</global-forwards>
+
+  <!-- ========== Action Mapping Definitions ============================== -->
+  <action-mappings>
+  
+   <action    	path      = "/start"
+               	type      = "sreg.StartAction"
+               	name      = "startForm"
+               	scope     = "session"
+               	validate  = "false"
+     >
+       			<forward name="Start"     		path="/EnterData.jsp"  />
+       			<forward name="OneOnly"     	path="/OneOnly.jsp"  />
+    </action>
+    
+    <action    	path      = "/continue"
+               	type      = "sreg.OneAction"
+               	name      = "oneForm"
+               	scope     = "request"
+               	validate  = "false"
+     >
+     			<forward name="Continue"       path="/EnterData.jsp"  />
+    </action>
+
+    <action    	path      = "/enterdata"
+               	type      = "sreg.EnterDataAction"
+               	name      = "enterDataForm"
+               	scope     = "session"
+               	validate  = "true"
+				input     = "/EnterData.jsp"			
+     >
+                <forward name="EnterData"       path="/EnterData.jsp"  />
+    </action>
+    
+    <action    	path      = "/clearpage"
+               	type      = "sreg.EnterDataAction"
+               	name      = "enterDataForm"
+               	scope     = "session"
+               	validate  = "false"
+               	input     = "/EnterData.jsp"
+     >
+                <forward name="EnterData"       path="/EnterData.jsp"  />
+    </action>
+    
+    <action    	path      = "/cancelanalysis"
+               	type      = "sreg.CancelAction"
+               	name      = "cancelForm"
+               	scope     = "session"
+               	validate  = "false"
+               	input     = "/EnterData.jsp"
+               	cancellable = "true"
+     >
+                <forward name="EnterData"       path="/EnterData.jsp"  />
+    </action>
+    
+    <action    	path      = "/checkid"
+               	type      = "sreg.CheckIDAction"
+               	scope     = "request"
+     >
+                <forward name="Gone"               path="/Gone.jsp"  />
+                <forward name="downloadpage"       path="/downloadpage.do" />
+                <forward name="downloadfile"       path="/downloadfile.do" />
+                <forward name="displayfile"        path="/displayfile.do" />
+    </action>
+    
+    <action    	path      = "/downloadpage"
+               	type      = "sreg.DownloadPageAction"
+               	scope     = "request"
+     >
+    </action>
+    
+    <action    	path      = "/downloadfile"
+               	type      = "sreg.DownloadFileAction"
+               	scope     = "request"
+               	input     = "/Results.jsp"
+     >
+    </action>
+    
+    <action    	path      = "/displayfile"
+               	type      = "sreg.DisplayFileAction"
+               	scope     = "request"
+     >        
+    </action>
+     <action    path      = "/displaypinfo"
+               	type      = "sreg.DisplayPinfoAction"
+               	scope     = "request"
+     >        
+    </action>
+    
+    <action    path      = "/displaygpinfo"
+               	type      = "sreg.DisplayGpinfoAction"
+               	scope     = "request"
+     >        
+    </action>
+    
+    <action    	path      = "/imagemap"
+               	type      = "sreg.ImageMapAction"
+               	name      = "imageMapForm"
+               	scope     = "request"
+               	validate  = "false"			
+     >
+     			<forward name="EnterData"       path="/EnterData.jsp"  />
+     			<forward name="Results"       path="/Results.jsp"  />
+    </action>
+
+  </action-mappings>
+
+  <!-- ========== Message Resources Definitions =========================== -->
+
+  <message-resources parameter="sreg.ApplicationResources"
+                     null="false"/>
+  <message-resources parameter="sreg.ApplicationSettings"
+                     null="false"
+		     key="settings"/>
+</struts-config>
+

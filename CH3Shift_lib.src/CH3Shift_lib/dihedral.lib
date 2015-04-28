@@ -1,0 +1,56 @@
+################################################################################
+# Copyright (C) 2009+ Aleksandr B. Sahakyan (aleksahak[at]cantab.net).         #
+#                                                                              #
+# License: You may redistribute this source code (or its components) and/or    #
+#   modify/translate it under the terms of the GNU General Public License      #
+#   as published by the Free Software Foundation; version 2 of the License     #
+#   (GPL2). You can find the details of GPL2 in the follwing link:             #
+#   https://www.gnu.org/licenses/gpl-2.0.html                                  #
+################################################################################
+# For each of the dihedral records, 3 variants are allowed.
+# To extend this, see the code "all_dihedral.R"
+
+DIHEDRAL VAL CHI1 N,CA,CB,CG1
+DIHEDRAL VAL CHI2 NA
+DIHEDRAL VAL CHI3 NA
+DIHEDRAL VAL CHI4 NA
+DIHEDRAL VAL CHI5 NA
+
+DIHEDRAL LEU CHI1 N,CA,CB,CG  
+DIHEDRAL LEU CHI2 CA,CB,CG,CD1
+DIHEDRAL LEU CHI3 NA
+DIHEDRAL LEU CHI4 NA
+DIHEDRAL LEU CHI5 NA
+
+DIHEDRAL THR CHI1 N,CA,CB,OG1 
+DIHEDRAL THR CHI2 NA
+DIHEDRAL THR CHI3 NA
+DIHEDRAL THR CHI4 NA
+DIHEDRAL THR CHI5 NA
+
+DIHEDRAL MET CHI1 N,CA,CB,CG  
+DIHEDRAL MET CHI2 CA,CB,CG,SD 
+DIHEDRAL MET CHI3 CB,CG,SD,CE 
+DIHEDRAL MET CHI4 NA 
+DIHEDRAL MET CHI5 NA 
+
+DIHEDRAL ILE CHI1 N,CA,CB,CG1  
+DIHEDRAL ILE CHI2 CA,CB,CG1,CD1 CA,CB,CG1,CD 
+DIHEDRAL ILE CHI3 NA
+DIHEDRAL ILE CHI4 NA
+DIHEDRAL ILE CHI5 NA
+
+DIHEDRAL ALA CHI1 NA
+DIHEDRAL ALA CHI2 NA
+DIHEDRAL ALA CHI3 NA
+DIHEDRAL ALA CHI4 NA
+DIHEDRAL ALA CHI5 NA
+
+DIHEDRAL GLY CHI1 NA
+DIHEDRAL GLY CHI2 NA
+DIHEDRAL GLY CHI3 NA
+DIHEDRAL GLY CHI4 NA
+DIHEDRAL GLY CHI5 NA
+
+# add info for other amino acids
+

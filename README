@@ -1,0 +1,24 @@
+CH3Shift is a structure-based predictor of proton chemical shifts of protein side-chain methyl groups. The code is for both the stand-alone and server implementations of CH3Shift.
+
+Please cite the following paper when using the code:
+
+Sahakyan A.B., Vranken W.F., Cavalli A., Vendruscolo M. “Structure-Based Prediction of Methyl Chemical Shifts in Proteins”, J. Biomol. NMR, 50, 331-346, 2011.
+http://dx.doi.org/10.1007/s10858-011-9524-2 
+
+If using the structure validation report and Qcs scores of CH3Shift, also cite:
+
+Sahakyan A.B., Cavalli A., Vranken W.F., Vendruscolo M. “Protein Structure Validation Using Side-Chain Chemical Shifts”, J. Phys. Chem. B, 116, 4754-4759, 2012.
+http://dx.doi.org/10. 1021/jp2122054 
+
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+# License: You may redistribute this source code (or its components) and/or   #
+#   modify/translate it under the terms of the GNU General Public License     #
+#   as published by the Free Software Foundation; version 2 of the License    #
+#   (GPL2). You can find the details of GPL2 in the following link:           #
+#   https://www.gnu.org/licenses/gpl-2.0.html                                 #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+
