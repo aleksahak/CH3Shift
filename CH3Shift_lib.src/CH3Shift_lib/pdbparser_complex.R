@@ -23,70 +23,70 @@ pdbparser.complex <- function(PDBfile, PROTEINremoveQname=TRUE) {
  
   # At first removing some of the rows which may contain the word ATOM
   remove <- grep("REMARK", PDB, fixed=TRUE)
-  if(length(c(1,remove)) > 1) { PDB <- PDB[-remove] }
+  if(length(remove) != 0) { PDB <- PDB[-remove] }
 
   remove <- grep("CONECT", PDB, fixed=TRUE)
-  if(length(c(1,remove)) > 1) { PDB <- PDB[-remove] }
+  if(length(remove) != 0) { PDB <- PDB[-remove] }
 
   remove <- grep("SEQRES", PDB, fixed=TRUE)
-  if(length(c(1,remove)) > 1) { PDB <- PDB[-remove] }
+  if(length(remove) != 0) { PDB <- PDB[-remove] }
 
   remove <- grep("COMPND", PDB, fixed=TRUE)
-  if(length(c(1,remove)) > 1) { PDB <- PDB[-remove] }
+  if(length(remove) != 0) { PDB <- PDB[-remove] }
   
   remove <- grep("TITLE", PDB, fixed=TRUE)
-  if(length(c(1,remove)) > 1) { PDB <- PDB[-remove] }
+  if(length(remove) != 0) { PDB <- PDB[-remove] }
   
   remove <- grep("HEADER", PDB, fixed=TRUE)
-  if(length(c(1,remove)) > 1) { PDB <- PDB[-remove] }
+  if(length(remove) != 0) { PDB <- PDB[-remove] }
 
   remove <- grep("KEYWDS", PDB, fixed=TRUE)
-  if(length(c(1,remove)) > 1) { PDB <- PDB[-remove] }
+  if(length(remove) != 0) { PDB <- PDB[-remove] }
 
   remove <- grep("EXPDTA", PDB, fixed=TRUE)
-  if(length(c(1,remove)) > 1) { PDB <- PDB[-remove] }
+  if(length(remove) != 0) { PDB <- PDB[-remove] }
 
   remove <- grep("REVDAT", PDB, fixed=TRUE)
-  if(length(c(1,remove)) > 1) { PDB <- PDB[-remove] }
+  if(length(remove) != 0) { PDB <- PDB[-remove] }
 
   remove <- grep("JRNL", PDB, fixed=TRUE)
-  if(length(c(1,remove)) > 1) { PDB <- PDB[-remove] }
+  if(length(remove) != 0) { PDB <- PDB[-remove] }
 
   remove <- grep("SOURCE", PDB, fixed=TRUE)
-  if(length(c(1,remove)) > 1) { PDB <- PDB[-remove] }
+  if(length(remove) != 0) { PDB <- PDB[-remove] }
 
   remove <- grep("MDLTYP", PDB, fixed=TRUE)
-  if(length(c(1,remove)) > 1) { PDB <- PDB[-remove] }
+  if(length(remove) != 0) { PDB <- PDB[-remove] }
 
   remove <- grep("AUTHOR", PDB, fixed=TRUE)
-  if(length(c(1,remove)) > 1) { PDB <- PDB[-remove] }
+  if(length(remove) != 0) { PDB <- PDB[-remove] }
 
   remove <- grep("DBREF", PDB, fixed=TRUE)
-  if(length(c(1,remove)) > 1) { PDB <- PDB[-remove] }
+  if(length(remove) != 0) { PDB <- PDB[-remove] }
 
   remove <- grep("MODRES", PDB, fixed=TRUE)
-  if(length(c(1,remove)) > 1) { PDB <- PDB[-remove] }
+  if(length(remove) != 0) { PDB <- PDB[-remove] }
 
   remove <- grep("HETNAM", PDB, fixed=TRUE)
-  if(length(c(1,remove)) > 1) { PDB <- PDB[-remove] }
+  if(length(remove) != 0) { PDB <- PDB[-remove] }
 
   remove <- grep("FORMUL", PDB, fixed=TRUE)
-  if(length(c(1,remove)) > 1) { PDB <- PDB[-remove] }
+  if(length(remove) != 0) { PDB <- PDB[-remove] }
 
   remove <- grep("LINK   ", PDB, fixed=TRUE)
-  if(length(c(1,remove)) > 1) { PDB <- PDB[-remove] }
+  if(length(remove) != 0) { PDB <- PDB[-remove] }
 
   remove <- grep("HET  ", PDB, fixed=TRUE)
-  if(length(c(1,remove)) > 1) { PDB <- PDB[-remove] }
+  if(length(remove) != 0) { PDB <- PDB[-remove] }
 
   remove <- grep("CRYST1", PDB, fixed=TRUE)
-  if(length(c(1,remove)) > 1) { PDB <- PDB[-remove] }
+  if(length(remove) != 0) { PDB <- PDB[-remove] }
 
   remove <- grep("SCALE", PDB, fixed=TRUE)
-  if(length(c(1,remove)) > 1) { PDB <- PDB[-remove] }
+  if(length(remove) != 0) { PDB <- PDB[-remove] }
 
   remove <- grep("ORIGX", PDB, fixed=TRUE)
-  if(length(c(1,remove)) > 1) { PDB <- PDB[-remove] }
+  if(length(remove) != 0) { PDB <- PDB[-remove] }
 
 
   # identifiers of pdb lines containing ATOM
